@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_width="fill_parent">
+        <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tableRow1">
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/AzimtuhLabel" android:text="Azimtuh "></TextView>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:id="@+id/azimuth"></TextView>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/TableRow01">
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Pitch" android:id="@+id/PitchLabel"></TextView>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:id="@+id/pitch"></TextView>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/TableRow02">
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Roll" android:id="@+id/RollLabel"></TextView>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:id="@+id/roll"></TextView>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
